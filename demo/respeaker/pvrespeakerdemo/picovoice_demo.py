@@ -18,7 +18,7 @@ import pyaudio
 from gpiozero import LED
 from picovoice import Picovoice
 
-from .apa102 import APA102
+from apa102 import APA102
 
 COLORS_RGB = dict(
     blue=(0, 0, 255),
